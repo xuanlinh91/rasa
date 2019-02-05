@@ -16,6 +16,8 @@ services:
       - rest
       - --endpoints
       - config/endpoints.yml
+      - --credentials
+      - credentials.yml
       - -u
       - current/
   rasa_nlu:
