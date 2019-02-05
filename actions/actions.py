@@ -3,12 +3,10 @@ import json
 from rasa_core_sdk import Action
 
 
-class ActionJoke(Action):
+class ActionMyFallback(Action):
   def name(self):
-    return "action_joke"
+    return "my_fallback_action"
 
   def run(self, dispatcher, tracker, domain):
-    request = requests.get('http://api.icndb.com/jokes/random').json() #make an api call
-    joke = request['value']['joke'] #extract a joke from returned json response
-    dispatcher.utter_message(joke) #send the message back to the user
+    dispatcher.utter_under_building()
     return []
