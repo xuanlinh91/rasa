@@ -1,5 +1,0 @@
-policies:
-  - name: "FallbackPolicy"
-    nlu_threshold: 0.9
-    core_threshold: 0.9
-    fallback_action_name: "my_fallback_action"
