@@ -17,6 +17,7 @@ help:
 
 clean:
 	docker-compose down
+	docker rm -v $(docker ps -a -q -f status=exited)
 
 train-nlu:
 	docker run -v $(notdir $(CURDIR)):/app/project -v $(notdir $(CURDIR))/models/rasa_nlu:/app/models rasa/rasa_nlu:latest-tensorflow run python -m rasa_nlu.train -c config.yml -d project/data/nlu.md -o models --project current
