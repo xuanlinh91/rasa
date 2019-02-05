@@ -5,7 +5,7 @@ intents:
 
 actions:
   - utter_greet
-  - utter_chatting
+  - utter_under_building
   - utter_goodbye
 
 templates:
