@@ -8,5 +8,5 @@ class ActionMyFallback(Action):
     return "my_fallback_action"
 
   def run(self, dispatcher, tracker, domain):
-    dispatcher.utter_under_building()
+    dispatcher.utter_template("utter_under_building")
     return []

@@ -15,7 +15,7 @@ templates:
     - text: "Có gì hot?"
     - text: "Em nhơn đây :v"
   utter_under_building:
-    - text: "Linh ốc đang code dở, chưa dùng được =.=!"
+    - text: "đang code dở, chưa dùng được =.=!"
   utter_goodbye:
     - text: "Viu...."
     - text: "Em té nha :v"
