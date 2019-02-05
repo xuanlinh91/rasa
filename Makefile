@@ -16,22 +16,16 @@ help:
 
 
 clean:
-	find . -name '*.pyc' -exec rm -f {} +
-	find . -name '*.pyo' -exec rm -f {} +
-	find . -name '*~' -exec rm -f  {} +
-	rm -rf build/
-	rm -rf dist/
-	rm -rf *.egg-info
-	rm -rf docs/_build
+	docker-compose down
 
 train-nlu:
-	python -m rasa_nlu.train -c config/nlu_config.yml --data data/nlu.md -o models --fixed_model_name nlu --project current --verbose
+	docker run -v $(pwd):/app/project -v $(pwd)/models/rasa_nlu:/app/models rasa/rasa_nlu:latest-tensorflow run python -m rasa_nlu.train -c config.yml -d project/data/nlu.md -o models --project current
 
 train-core:
-	python -m rasa_core.train -d domain.yml -s data/stories.md -o models/rasa_nlu -c policies.yml
+	docker run -v $(pwd):/app/project -v $(pwd)/models/rasa_core:/app/models rasa/rasa_core:latest train --domain project/domain.yml --stories project/data/stories.md --out models
 
-cmdline:
-	python -m rasa_core.run -d models/rasa_core -u models/rasa_nlu/current --endpoints config/endpoints.yml
+build:
+	docker-compose up -d
 
 action-server:
 	python -m rasa_core_sdk.endpoint --actions actions
