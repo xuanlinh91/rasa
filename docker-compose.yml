@@ -9,6 +9,7 @@ services:
       - ./models/rasa_core:/app/models
       - ./config:/app/config
       - ./credentials.yml:/app/credentials.yml
+      - ./policy.yml:/app/policy.yml
     command:
       - start
       - --core
