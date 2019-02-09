@@ -6,100 +6,96 @@
     "utter_batkeo": {
       "slots": []
     },
-    "utter_vinh": {
-      "slots": []
-    },
-    "utter_hoan": {
-      "slots": []
-    },
-    "utter_huu": {
-      "slots": []
-    },
-    "utter_japanese": {
-      "slots": []
-    },
-    "utter_hatachi": {
-      "slots": []
-    },
-    "utter_work": {
-      "slots": []
-    },
-    "utter_xamlon": {
-      "slots": []
-    },
-    "utter_dinh": {
-      "slots": []
-    },
-    "utter_trong": {
-      "slots": []
-    },
-    "utter_linh": {
-      "slots": []
-    },
-    "utter_binh": {
-      "slots": []
-    },
     "utter_tam": {
-      "slots": []
-    },
-    "utter_luan": {
-      "slots": []
-    },
-    "utter_bi_chui": {
-      "slots": []
-    },
-    "utter_keo": {
-      "slots": []
-    },
-    "utter_18cong": {
-      "slots": []
-    },
-    "utter_dung": {
-      "slots": []
-    },
-    "utter_an": {
-      "slots": []
-    },
-    "utter_tan_gai": {
-      "slots": []
-    },
-    "utter_vjp": {
       "slots": []
     },
     "utter_dichoi": {
       "slots": []
     },
-    "utter_plan": {
+    "utter_18cong": {
+      "slots": []
+    },
+    "utter_japanese": {
+      "slots": []
+    },
+    "utter_an": {
+      "slots": []
+    },
+    "utter_keo": {
+      "slots": []
+    },
+    "utter_xamlon": {
+      "slots": []
+    },
+    "utter_hatachi": {
+      "slots": []
+    },
+    "utter_trong": {
+      "slots": []
+    },
+    "utter_work": {
       "slots": []
     },
     "utter_code": {
       "slots": []
     },
-    "utter_salary": {
+    "utter_binh": {
+      "slots": []
+    },
+    "utter_bi_chui": {
       "slots": []
     },
     "utter_tai": {
       "slots": []
     },
+    "utter_huu": {
+      "slots": []
+    },
+    "utter_tan_gai": {
+      "slots": []
+    },
+    "utter_vinh": {
+      "slots": []
+    },
     "utter_vsii": {
+      "slots": []
+    },
+    "utter_luan": {
+      "slots": []
+    },
+    "utter_dung": {
+      "slots": []
+    },
+    "utter_linh": {
+      "slots": []
+    },
+    "utter_vjp": {
+      "slots": []
+    },
+    "utter_salary": {
+      "slots": []
+    },
+    "utter_dinh": {
+      "slots": []
+    },
+    "utter_plan": {
+      "slots": []
+    },
+    "utter_hoan": {
       "slots": []
     }
   },
   "python": "3.6.8",
   "max_histories": [
-    5,
-    null,
-    5,
-    2
+    3,
+    3
   ],
   "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
   "policy_names": [
     "rasa_core.policies.keras_policy.KerasPolicy",
-    "rasa_core.policies.fallback.FallbackPolicy",
-    "rasa_core.policies.memoization.MemoizationPolicy",
-    "rasa_core.policies.form_policy.FormPolicy"
+    "rasa_core.policies.memoization.MemoizationPolicy"
   ],
-  "trained_at": "20190209-112617",
+  "trained_at": "20190209-132853",
   "rasa_core": "0.13.1",
   "tensorflow": "1.12.0",
   "sklearn": "0.20.2"

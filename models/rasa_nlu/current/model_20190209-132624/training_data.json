@@ -527,59 +527,51 @@
       },
       {
         "intent": "vjp",
-        "text": "hoàn"
+        "text": "vjp"
       },
       {
         "intent": "vjp",
-        "text": "thằng hoàn"
+        "text": "vjp giờ sao rồi"
       },
       {
         "intent": "vjp",
-        "text": "chửi hoàn đi"
+        "text": "biết vjp ko"
       },
       {
         "intent": "vjp",
-        "text": "nhuộm kiếm hoàn"
+        "text": "lão cỏ"
       },
       {
         "intent": "vjp",
-        "text": "ghét thằng hoàn à"
+        "text": "lão già"
       },
       {
         "intent": "vjp",
-        "text": "có thích thằng hoàn ko"
+        "text": "lão cỏ"
       },
       {
         "intent": "vjp",
-        "text": "hoàn là ai"
+        "text": "mụ núi"
       },
       {
         "intent": "vsii",
-        "text": "hoàn"
+        "text": "lão hải"
       },
       {
         "intent": "vsii",
-        "text": "thằng hoàn"
+        "text": "viets"
       },
       {
         "intent": "vsii",
-        "text": "chửi hoàn đi"
+        "text": "công ty"
       },
       {
         "intent": "vsii",
-        "text": "nhuộm kiếm hoàn"
+        "text": "bà chi"
       },
       {
         "intent": "vsii",
-        "text": "ghét thằng hoàn à"
-      },
-      {
-        "intent": "vsii",
-        "text": "có thích thằng hoàn ko"
-      },
-      {
-        "intent": "vsii",
-        "text": "hoàn là ai"
+        "text": "vsii sao rồi"
       },
       {
         "intent": "batkeo",
