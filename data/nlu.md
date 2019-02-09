@@ -34,6 +34,13 @@
   - vãi loz
 ## intent:hatachi
   - hatachi
+  - thằng hatachi
+  - chửi hatachi đi
+  - nhuộm kiếm hatachi
+  - ghét thằng hatachi à
+  - có thích thằng hatachi ko
+  - có biết thằng hatachi ko
+  - hatachi là ai
 ## intent:dung
   - dũng
   - thằng dũng
