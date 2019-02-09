@@ -1,0 +1,753 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "18cong",
+        "text": "chịch nhau chưa"
+      },
+      {
+        "intent": "18cong",
+        "text": "chịch nhau ko"
+      },
+      {
+        "intent": "18cong",
+        "text": "có thích ngắm vếu ko"
+      },
+      {
+        "intent": "18cong",
+        "text": "nhuộm kiếm chưa"
+      },
+      {
+        "intent": "18cong",
+        "text": "chịch em nào chưa"
+      },
+      {
+        "intent": "xamlon",
+        "text": "nói gì đi"
+      },
+      {
+        "intent": "xamlon",
+        "text": "chết chưa"
+      },
+      {
+        "intent": "xamlon",
+        "text": "còn sống ko"
+      },
+      {
+        "intent": "xamlon",
+        "text": "nói đi em"
+      },
+      {
+        "intent": "xamlon",
+        "text": "kể chuyện đi"
+      },
+      {
+        "intent": "xamlon",
+        "text": "xàm lồn"
+      },
+      {
+        "intent": "xamlon",
+        "text": "xàm đi"
+      },
+      {
+        "intent": "xamlon",
+        "text": "nay không xàm à"
+      },
+      {
+        "intent": "xamlon",
+        "text": "biết xàm lồn ko"
+      },
+      {
+        "intent": "bi_chui",
+        "text": "dkm"
+      },
+      {
+        "intent": "bi_chui",
+        "text": "dm"
+      },
+      {
+        "intent": "bi_chui",
+        "text": "dcm"
+      },
+      {
+        "intent": "bi_chui",
+        "text": "địt"
+      },
+      {
+        "intent": "bi_chui",
+        "text": "địt cụ mày"
+      },
+      {
+        "intent": "bi_chui",
+        "text": "địt mẹ mày"
+      },
+      {
+        "intent": "bi_chui",
+        "text": "ăn loz ko"
+      },
+      {
+        "intent": "bi_chui",
+        "text": "ccc"
+      },
+      {
+        "intent": "bi_chui",
+        "text": "củ cặc"
+      },
+      {
+        "intent": "bi_chui",
+        "text": "đkm"
+      },
+      {
+        "intent": "bi_chui",
+        "text": "đcm"
+      },
+      {
+        "intent": "bi_chui",
+        "text": "đm"
+      },
+      {
+        "intent": "bi_chui",
+        "text": "chó"
+      },
+      {
+        "intent": "bi_chui",
+        "text": "cút"
+      },
+      {
+        "intent": "bi_chui",
+        "text": "lồn"
+      },
+      {
+        "intent": "bi_chui",
+        "text": "vãi lồn"
+      },
+      {
+        "intent": "bi_chui",
+        "text": "vãi loz"
+      },
+      {
+        "intent": "hatachi",
+        "text": "hatachi"
+      },
+      {
+        "intent": "hatachi",
+        "text": "thằng hatachi"
+      },
+      {
+        "intent": "hatachi",
+        "text": "chửi hatachi đi"
+      },
+      {
+        "intent": "hatachi",
+        "text": "nhuộm kiếm hatachi"
+      },
+      {
+        "intent": "hatachi",
+        "text": "ghét thằng hatachi à"
+      },
+      {
+        "intent": "hatachi",
+        "text": "có thích thằng hatachi ko"
+      },
+      {
+        "intent": "hatachi",
+        "text": "có biết thằng hatachi ko"
+      },
+      {
+        "intent": "hatachi",
+        "text": "hatachi là ai"
+      },
+      {
+        "intent": "dung",
+        "text": "dũng"
+      },
+      {
+        "intent": "dung",
+        "text": "thằng dũng"
+      },
+      {
+        "intent": "dung",
+        "text": "chửi dũng đi"
+      },
+      {
+        "intent": "dung",
+        "text": "nhuộm kiếm dũng"
+      },
+      {
+        "intent": "dung",
+        "text": "ghét thằng dũng à"
+      },
+      {
+        "intent": "dung",
+        "text": "có thích thằng dũng ko"
+      },
+      {
+        "intent": "dung",
+        "text": "có biết thằng dũng ko"
+      },
+      {
+        "intent": "dung",
+        "text": "dũng là ai"
+      },
+      {
+        "intent": "hoan",
+        "text": "hoàn"
+      },
+      {
+        "intent": "hoan",
+        "text": "thằng hoàn"
+      },
+      {
+        "intent": "hoan",
+        "text": "chửi hoàn đi"
+      },
+      {
+        "intent": "hoan",
+        "text": "nhuộm kiếm hoàn"
+      },
+      {
+        "intent": "hoan",
+        "text": "ghét thằng hoàn à"
+      },
+      {
+        "intent": "hoan",
+        "text": "có thích thằng hoàn ko"
+      },
+      {
+        "intent": "hoan",
+        "text": "hoàn là ai"
+      },
+      {
+        "intent": "trong",
+        "text": "hoàn"
+      },
+      {
+        "intent": "trong",
+        "text": "thằng hoàn"
+      },
+      {
+        "intent": "trong",
+        "text": "chửi hoàn đi"
+      },
+      {
+        "intent": "trong",
+        "text": "nhuộm kiếm hoàn"
+      },
+      {
+        "intent": "trong",
+        "text": "ghét thằng hoàn à"
+      },
+      {
+        "intent": "trong",
+        "text": "có thích thằng hoàn ko"
+      },
+      {
+        "intent": "trong",
+        "text": "hoàn là ai"
+      },
+      {
+        "intent": "luan",
+        "text": "hoàn"
+      },
+      {
+        "intent": "luan",
+        "text": "thằng hoàn"
+      },
+      {
+        "intent": "luan",
+        "text": "chửi hoàn đi"
+      },
+      {
+        "intent": "luan",
+        "text": "nhuộm kiếm hoàn"
+      },
+      {
+        "intent": "luan",
+        "text": "ghét thằng hoàn à"
+      },
+      {
+        "intent": "luan",
+        "text": "có thích thằng hoàn ko"
+      },
+      {
+        "intent": "luan",
+        "text": "hoàn là ai"
+      },
+      {
+        "intent": "tam",
+        "text": "hoàn"
+      },
+      {
+        "intent": "tam",
+        "text": "thằng hoàn"
+      },
+      {
+        "intent": "tam",
+        "text": "chửi hoàn đi"
+      },
+      {
+        "intent": "tam",
+        "text": "nhuộm kiếm hoàn"
+      },
+      {
+        "intent": "tam",
+        "text": "ghét thằng hoàn à"
+      },
+      {
+        "intent": "tam",
+        "text": "có thích thằng hoàn ko"
+      },
+      {
+        "intent": "tam",
+        "text": "hoàn là ai"
+      },
+      {
+        "intent": "binh",
+        "text": "hoàn"
+      },
+      {
+        "intent": "binh",
+        "text": "thằng hoàn"
+      },
+      {
+        "intent": "binh",
+        "text": "chửi hoàn đi"
+      },
+      {
+        "intent": "binh",
+        "text": "nhuộm kiếm hoàn"
+      },
+      {
+        "intent": "binh",
+        "text": "ghét thằng hoàn à"
+      },
+      {
+        "intent": "binh",
+        "text": "có thích thằng hoàn ko"
+      },
+      {
+        "intent": "binh",
+        "text": "hoàn là ai"
+      },
+      {
+        "intent": "tai",
+        "text": "hoàn"
+      },
+      {
+        "intent": "tai",
+        "text": "thằng hoàn"
+      },
+      {
+        "intent": "tai",
+        "text": "chửi hoàn đi"
+      },
+      {
+        "intent": "tai",
+        "text": "nhuộm kiếm hoàn"
+      },
+      {
+        "intent": "tai",
+        "text": "ghét thằng hoàn à"
+      },
+      {
+        "intent": "tai",
+        "text": "có thích thằng hoàn ko"
+      },
+      {
+        "intent": "tai",
+        "text": "hoàn là ai"
+      },
+      {
+        "intent": "huu",
+        "text": "hoàn"
+      },
+      {
+        "intent": "huu",
+        "text": "thằng hoàn"
+      },
+      {
+        "intent": "huu",
+        "text": "chửi hoàn đi"
+      },
+      {
+        "intent": "huu",
+        "text": "nhuộm kiếm hoàn"
+      },
+      {
+        "intent": "huu",
+        "text": "ghét thằng hoàn à"
+      },
+      {
+        "intent": "huu",
+        "text": "có thích thằng hoàn ko"
+      },
+      {
+        "intent": "huu",
+        "text": "hoàn là ai"
+      },
+      {
+        "intent": "vinh",
+        "text": "hoàn"
+      },
+      {
+        "intent": "vinh",
+        "text": "thằng hoàn"
+      },
+      {
+        "intent": "vinh",
+        "text": "chửi hoàn đi"
+      },
+      {
+        "intent": "vinh",
+        "text": "nhuộm kiếm hoàn"
+      },
+      {
+        "intent": "vinh",
+        "text": "ghét thằng hoàn à"
+      },
+      {
+        "intent": "vinh",
+        "text": "có thích thằng hoàn ko"
+      },
+      {
+        "intent": "vinh",
+        "text": "hoàn là ai"
+      },
+      {
+        "intent": "linh",
+        "text": "hoàn"
+      },
+      {
+        "intent": "linh",
+        "text": "thằng hoàn"
+      },
+      {
+        "intent": "linh",
+        "text": "chửi hoàn đi"
+      },
+      {
+        "intent": "linh",
+        "text": "nhuộm kiếm hoàn"
+      },
+      {
+        "intent": "linh",
+        "text": "ghét thằng hoàn à"
+      },
+      {
+        "intent": "linh",
+        "text": "có thích thằng hoàn ko"
+      },
+      {
+        "intent": "linh",
+        "text": "hoàn là ai"
+      },
+      {
+        "intent": "dinh",
+        "text": "hoàn"
+      },
+      {
+        "intent": "dinh",
+        "text": "thằng hoàn"
+      },
+      {
+        "intent": "dinh",
+        "text": "chửi hoàn đi"
+      },
+      {
+        "intent": "dinh",
+        "text": "nhuộm kiếm hoàn"
+      },
+      {
+        "intent": "dinh",
+        "text": "ghét thằng hoàn à"
+      },
+      {
+        "intent": "dinh",
+        "text": "có thích thằng hoàn ko"
+      },
+      {
+        "intent": "dinh",
+        "text": "hoàn là ai"
+      },
+      {
+        "intent": "an",
+        "text": "hoàn"
+      },
+      {
+        "intent": "an",
+        "text": "thằng hoàn"
+      },
+      {
+        "intent": "an",
+        "text": "chửi hoàn đi"
+      },
+      {
+        "intent": "an",
+        "text": "nhuộm kiếm hoàn"
+      },
+      {
+        "intent": "an",
+        "text": "ghét thằng hoàn à"
+      },
+      {
+        "intent": "an",
+        "text": "có thích thằng hoàn ko"
+      },
+      {
+        "intent": "an",
+        "text": "hoàn là ai"
+      },
+      {
+        "intent": "plan",
+        "text": "hoàn"
+      },
+      {
+        "intent": "plan",
+        "text": "thằng hoàn"
+      },
+      {
+        "intent": "plan",
+        "text": "chửi hoàn đi"
+      },
+      {
+        "intent": "plan",
+        "text": "nhuộm kiếm hoàn"
+      },
+      {
+        "intent": "plan",
+        "text": "ghét thằng hoàn à"
+      },
+      {
+        "intent": "plan",
+        "text": "có thích thằng hoàn ko"
+      },
+      {
+        "intent": "plan",
+        "text": "hoàn là ai"
+      },
+      {
+        "intent": "vjp",
+        "text": "hoàn"
+      },
+      {
+        "intent": "vjp",
+        "text": "thằng hoàn"
+      },
+      {
+        "intent": "vjp",
+        "text": "chửi hoàn đi"
+      },
+      {
+        "intent": "vjp",
+        "text": "nhuộm kiếm hoàn"
+      },
+      {
+        "intent": "vjp",
+        "text": "ghét thằng hoàn à"
+      },
+      {
+        "intent": "vjp",
+        "text": "có thích thằng hoàn ko"
+      },
+      {
+        "intent": "vjp",
+        "text": "hoàn là ai"
+      },
+      {
+        "intent": "vsii",
+        "text": "hoàn"
+      },
+      {
+        "intent": "vsii",
+        "text": "thằng hoàn"
+      },
+      {
+        "intent": "vsii",
+        "text": "chửi hoàn đi"
+      },
+      {
+        "intent": "vsii",
+        "text": "nhuộm kiếm hoàn"
+      },
+      {
+        "intent": "vsii",
+        "text": "ghét thằng hoàn à"
+      },
+      {
+        "intent": "vsii",
+        "text": "có thích thằng hoàn ko"
+      },
+      {
+        "intent": "vsii",
+        "text": "hoàn là ai"
+      },
+      {
+        "intent": "batkeo",
+        "text": "bắt bên nào"
+      },
+      {
+        "intent": "batkeo",
+        "text": "bibiclub bibi hồng anh chim sẻ đi nắng thái bình"
+      },
+      {
+        "intent": "batkeo",
+        "text": "đánh mấy C"
+      },
+      {
+        "intent": "batkeo",
+        "text": "chấp kèo nhé"
+      },
+      {
+        "intent": "batkeo",
+        "text": "có xem kèo ko"
+      },
+      {
+        "intent": "keo",
+        "text": "biết đánh kèo ko"
+      },
+      {
+        "intent": "keo",
+        "text": "đi đánh kèo đi"
+      },
+      {
+        "intent": "keo",
+        "text": "đế chế ko"
+      },
+      {
+        "intent": "keo",
+        "text": "đánh chế đi"
+      },
+      {
+        "intent": "keo",
+        "text": "mai đi đánh kèo ko"
+      },
+      {
+        "intent": "keo",
+        "text": "assy yamato choson shang random babylon sumer catha hitti phone greek mace deathmatch gigantic pal mioan persian roman egypt"
+      },
+      {
+        "intent": "code",
+        "text": "code"
+      },
+      {
+        "intent": "code",
+        "text": "java php"
+      },
+      {
+        "intent": "code",
+        "text": "biết lập trình ko"
+      },
+      {
+        "intent": "code",
+        "text": "ai dạy mày code"
+      },
+      {
+        "intent": "code",
+        "text": "server docker aws javascript php nodejs"
+      },
+      {
+        "intent": "work",
+        "text": "làm việc"
+      },
+      {
+        "intent": "work",
+        "text": "làm gì"
+      },
+      {
+        "intent": "work",
+        "text": "đi làm"
+      },
+      {
+        "intent": "salary",
+        "text": "lương bao nhiêu"
+      },
+      {
+        "intent": "salary",
+        "text": "40 man ko"
+      },
+      {
+        "intent": "salary",
+        "text": "lương"
+      },
+      {
+        "intent": "salary",
+        "text": "tiền lương"
+      },
+      {
+        "intent": "japanese",
+        "text": "biết tiếng nhật ko"
+      },
+      {
+        "intent": "japanese",
+        "text": "n mấy rồi"
+      },
+      {
+        "intent": "japanese",
+        "text": "n3 chưa"
+      },
+      {
+        "intent": "japanese",
+        "text": "n2 chưa"
+      },
+      {
+        "intent": "japanese",
+        "text": "thi jlpt chưa"
+      },
+      {
+        "intent": "japanese",
+        "text": "ai dạy tiếng nhật"
+      },
+      {
+        "intent": "japanese",
+        "text": "maria ozawa"
+      },
+      {
+        "intent": "dichoi",
+        "text": "đi chơi ko"
+      },
+      {
+        "intent": "dichoi",
+        "text": "đi ăn ko"
+      },
+      {
+        "intent": "dichoi",
+        "text": "mai đi mua quần áo"
+      },
+      {
+        "intent": "dichoi",
+        "text": "nhuộm kiếm hoàn"
+      },
+      {
+        "intent": "dichoi",
+        "text": "ghét thằng hoàn à"
+      },
+      {
+        "intent": "dichoi",
+        "text": "có thích thằng hoàn ko"
+      },
+      {
+        "intent": "dichoi",
+        "text": "hoàn là ai"
+      },
+      {
+        "intent": "tan_gai",
+        "text": "biết tán gái không"
+      },
+      {
+        "intent": "tan_gai",
+        "text": "tán gái đi"
+      },
+      {
+        "intent": "tan_gai",
+        "text": "tán em nào"
+      },
+      {
+        "intent": "tan_gai",
+        "text": "em này ngon ko"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

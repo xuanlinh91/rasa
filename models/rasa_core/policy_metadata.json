@@ -3,10 +3,85 @@
     "action_listen": {
       "slots": []
     },
-    "utter_goodbye": {
+    "utter_batkeo": {
       "slots": []
     },
-    "utter_greet": {
+    "utter_vinh": {
+      "slots": []
+    },
+    "utter_hoan": {
+      "slots": []
+    },
+    "utter_huu": {
+      "slots": []
+    },
+    "utter_japanese": {
+      "slots": []
+    },
+    "utter_hatachi": {
+      "slots": []
+    },
+    "utter_work": {
+      "slots": []
+    },
+    "utter_xamlon": {
+      "slots": []
+    },
+    "utter_dinh": {
+      "slots": []
+    },
+    "utter_trong": {
+      "slots": []
+    },
+    "utter_linh": {
+      "slots": []
+    },
+    "utter_binh": {
+      "slots": []
+    },
+    "utter_tam": {
+      "slots": []
+    },
+    "utter_luan": {
+      "slots": []
+    },
+    "utter_bi_chui": {
+      "slots": []
+    },
+    "utter_keo": {
+      "slots": []
+    },
+    "utter_18cong": {
+      "slots": []
+    },
+    "utter_dung": {
+      "slots": []
+    },
+    "utter_an": {
+      "slots": []
+    },
+    "utter_tan_gai": {
+      "slots": []
+    },
+    "utter_vjp": {
+      "slots": []
+    },
+    "utter_dichoi": {
+      "slots": []
+    },
+    "utter_plan": {
+      "slots": []
+    },
+    "utter_code": {
+      "slots": []
+    },
+    "utter_salary": {
+      "slots": []
+    },
+    "utter_tai": {
+      "slots": []
+    },
+    "utter_vsii": {
       "slots": []
     }
   },
@@ -24,7 +99,7 @@
     "rasa_core.policies.memoization.MemoizationPolicy",
     "rasa_core.policies.form_policy.FormPolicy"
   ],
-  "trained_at": "20190205-141501",
+  "trained_at": "20190209-112617",
   "rasa_core": "0.13.1",
   "tensorflow": "1.12.0",
   "sklearn": "0.20.2"
