@@ -7,7 +7,7 @@
   - utter_xamlon
 
 ##
-* bichui  
+* bi_chui  
   - utter_bi_chui
 
 ##
@@ -89,7 +89,7 @@
   - utter_work
 
 ##
-* salarary  
+* salary  
   - utter_salary
 
 ##
@@ -101,5 +101,5 @@
   - utter_dichoi
 
 ##
-* tangai
+* tan_gai
   - utter_tan_gai
