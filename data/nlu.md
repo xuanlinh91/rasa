@@ -147,21 +147,19 @@
   - có thích thằng hoàn ko
   - hoàn là ai
 ## intent:vjp
-  - hoàn
-  - thằng hoàn
-  - chửi hoàn đi
-  - nhuộm kiếm hoàn
-  - ghét thằng hoàn à
-  - có thích thằng hoàn ko
-  - hoàn là ai
+  - vjp
+  - vjp giờ sao rồi
+  - biết vjp ko
+  - lão cỏ
+  - lão già
+  - lão cỏ
+  - mụ núi
 ## intent:vsii
-  - hoàn
-  - thằng hoàn
-  - chửi hoàn đi
-  - nhuộm kiếm hoàn
-  - ghét thằng hoàn à
-  - có thích thằng hoàn ko
-  - hoàn là ai
+  - lão hải
+  - viets
+  - công ty
+  - bà chi
+  - vsii sao rồi
 ## intent:batkeo
   - bắt bên nào
   - bibiclub bibi hồng anh chim sẻ đi nắng thái bình
