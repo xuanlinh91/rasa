@@ -1,11 +1,3 @@
-## greeting
-* greet
-  - utter_greet
-
-## goodbye
-* goodbye
-  - utter_goodbye
-
 ##
 * 18cong
   - utter_18cong
