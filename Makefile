@@ -28,5 +28,8 @@ train-core:
 build:
 	docker-compose up -d
 
+interactive:
+    python -m rasa_core.train interactive --core models/dialogue --nlu models/current/nlu --endpoints config/endpoints.yml
+
 action-server:
 	python -m rasa_core_sdk.endpoint --actions actions
